@@ -1,0 +1,30 @@
+body,
+html {
+  background: linear-gradient(to bottom, #200b31 0%, #000000 100%);
+  min-height: 100vh;
+  width: 100%;
+  color: white;
+}
+body {
+  background-image: radial-gradient(
+      circle at 5px 5px,
+      #b5b0b0 0.2px,
+      transparent 0.3px
+    ),
+    radial-gradient(circle at 15px 15px, #b5b0b0 0.2px, transparent 0.3px),
+    radial-gradient(circle at 25px 25px, #b5b0b0 0.3px, transparent 0.4px),
+    radial-gradient(circle at 35px 35px, #b5b0b0 0.2px, transparent 0.3px),
+    radial-gradient(circle at 45px 45px, #b5b0b0 0.3px, transparent 2.4px);
+  background-size: 103px 155px;
+  min-height: 100vh;
+}
+
+html {
+  border: 80px solid #655781;
+}
+
+@media (max-width: 1300px) {
+  html {
+    border: 0px solid #655781;
+  }
+}

@@ -1,0 +1,151 @@
+.custom-section {
+  color: white;
+}
+.services-header {
+  font-size: 3em;
+  margin: 20px 0;
+  text-align-last: start;
+  margin-right: 600px;
+}
+.service-card {
+  background: #292758;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+  margin-left: 40px;
+}
+.btn-nav {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2em;
+  margin: 0 10px;
+}
+.service-card:hover {
+  transform: translateY(-5px);
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-content h2 {
+  margin-bottom: 15px;
+  font-size: 2em;
+  margin-left: 30px;
+}
+.service-icon {
+  max-width: 100%;
+  height: auto;
+}
+.card-content p {
+  text-align-last: start;
+  font-size: 1em;
+  margin-bottom: 20px;
+  margin-right: 130px;
+}
+
+.btn-discover {
+  align-self: start;
+  display: flex;
+
+  background: #6c63ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.col-12 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+.col-md-6 {
+  width: 46%;
+}
+
+.text-center {
+  display: flex;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+#text {
+  text-align: -webkit-center;
+  border-bottom-style: groove;
+}
+@media (max-width: 1300px) {
+  .text-center {
+    flex-wrap: wrap;
+  }
+  .service-card {
+    margin-bottom: 15px;
+  }
+
+  .card-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .services-header {
+    margin-right: 0px;
+    font-size: 1.5em;
+  }
+
+  .service-icon {
+    width: 50%;
+    margin-top: 10px;
+  }
+  *,
+  ::after,
+  ::before {
+    justify-content: center !important;
+  }
+  .card-content p {
+    margin-right: 0px;
+    font-size: 0.5em;
+  }
+  .p {
+    width: 1000px;
+  }
+  .btn-discover {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .col-12 {
+    flex-wrap: wrap;
+    padding-top: 0;
+  }
+  .btns {
+    display: none;
+  }
+  .card-content h2 {
+    font-size: 1em;
+    margin-left: 0px;
+  }
+}
+.pict {
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.5);
+  background: black;
+  padding: 4px;
+  width: max-content;
+  margin: 27px;
+  animation: rotateAround 10s infinite linear;
+}
+.logos {
+  display: flex;
+  justify-content: center;
+}
+@keyframes rotateAround {
+  from {
+    transform: rotate(0deg) translateX(100px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(6px) rotate(-360deg);
+  }
+}
+#logos2 {
+  margin-bottom: 86px;
+}

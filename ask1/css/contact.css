@@ -1,0 +1,203 @@
+.contact-section {
+  color: white;
+  text-align: center;
+  padding: 0px;
+}
+
+.heading-row h2 {
+  font-size: 7rem;
+  margin: 0;
+  margin-left: -299px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.contact-form {
+  display: flex;
+  margin-right: -80px;
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: -45px;
+}
+
+.contact-form input[type="email"] {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  margin-right: 100px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+  margin-left: 36px;
+}
+
+.info-row p {
+  font-size: 1rem;
+  margin-top: 20px;
+}
+.h2,
+h2 {
+  font-size: 3rem;
+}
+.email-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-bottom-style: outset;
+}
+
+.email-input {
+  flex-grow: 1;
+  margin-right: 10px;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #050505;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-btn::-moz-focus-inner {
+  border: 0;
+}
+
+.email-input::placeholder {
+  color: #aaa;
+}
+@media (max-width: 1000px) {
+  .h2,
+  h2 {
+    font-size: 2rem;
+  }
+  #quotes {
+    font-size: 2rem;
+  }
+  #btns button {
+    padding: 5px 10px;
+    font-size: 0.8em;
+  }
+  .heading-row h2 {
+    font-size: 2rem;
+  }
+  .contact-form {
+    display: grid;
+    justify-content: center;
+    margin-top: -18px;
+  }
+  .email-form {
+    padding: 10px;
+    margin-right: 0px;
+  }
+  .contact-form input[type="email"] {
+    margin-right: 0px;
+  }
+  .contact-section {
+    margin-top: 50px;
+  }
+}
+
+.content {
+  padding-right: 250px;
+}
+
+.content-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.cta {
+  text-align: right;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.cta h2 {
+  margin: 0;
+  margin-bottom: 81px;
+}
+
+.company-logo {
+  .company-logo {
+    max-width: 160px;
+    height: 99px;
+  }
+}
+.contact-section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 20px;
+}
+#PersonWorking {
+  display: flex;
+}
+#Foru {
+  margin-left: -211px;
+}
+#Company_Logo {
+  margin-top: auto;
+}
+.heading-row2 h2 {
+  font-size: 7rem;
+  margin: 0;
+  margin-top: auto;
+}
+#reach_us {
+  margin-top: 112px;
+  margin-left: 48px;
+}
+
+@media (max-width: 1000px) {
+  .contact-section2 {
+    flex-direction: column;
+    padding: 0px;
+  }
+
+  .column {
+    flex-basis: auto;
+    align-items: center;
+  }
+
+  #working {
+    width: 0px;
+  }
+  .cta {
+    text-align: center;
+    margin-top: -71px;
+    margin-right: -112px;
+  }
+  .content-image {
+    display: none;
+  }
+  #Foru {
+    margin-left: -38px;
+    font-size: 71px;
+  }
+  #Company_Logo {
+    margin-top: auto;
+    width: 90px;
+  }
+}
